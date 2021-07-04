@@ -1,4 +1,4 @@
-#Redux
+# Redux
 
 ![image](https://user-images.githubusercontent.com/57666307/124376648-fcfb9d80-dce2-11eb-9457-f0fb159427e4.png)
 
