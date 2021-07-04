@@ -27,3 +27,11 @@ state를 변경할 수 있는 유일한 방법은 action을 넘겨 주는 방법
 ## Change are made with Pure Functions (변화는 순수 함수로 만들어야 한다)
 
 action을 dispatch하여 state를 변경합니다. action으로 state를 업데이트 하는 함수를 Reducer이라고 합니다. 즉, action을 어떤 변화가 있는지 정의하는 객체라고 한다면, Reducer은 action을 가지고 state를 변경시켜 줍니다.
+
+## Redux의 구성 요소
+
+Store: 애플리케이션의 state(상태)를 저장하는 곳. Store 내에 Reducer 함수가 존재함.
+Dispatch: Reducer 함수에게 Action을 송신하는 역할.
+Action: 유저의 움직임로부터 발생된 이벤트(버튼 클릭, input에 데이터 입력 등)와 API로부터의 데이터 수신 등 state(상태)를 갱신하기 위한 정보를 담은 object(객체). Dispatch 함수에 의해 Action을 Reducer에게 보낼 수 있다.
+Reducer: 함수. Dispatch통해 받은 Action을 토대로, state를 modify, 갱신, 변경할 수 있는 유.일.한 함수.
+View: 애플리케이션의 유저 인터페이스(UI)
