@@ -1,5 +1,4 @@
-
-[Redux](https://www.notion.so/Redux-a6d196a96b76460c8edffc3fc9faad6f)
+#Redux
 
 ![image](https://user-images.githubusercontent.com/57666307/124376648-fcfb9d80-dce2-11eb-9457-f0fb159427e4.png)
 
